@@ -3,9 +3,9 @@ const navMenu = document.querySelector('.nav_menu');
 const body = document.querySelector('body');
 
 hamBug.addEventListener('click', () => {
-  hamBug.classList.toggle('active');
-  navMenu.classList.toggle('active');
-  body.classList.toggle('no-scroll');
+  hamBug.classList.add('active');
+  navMenu.classList.add('active');
+  body.classList.add('no-scroll');
 });
 
 document.querySelectorAll('.nav_link').forEach((n) => n.addEventListener('click', () => {
